@@ -3,7 +3,7 @@ import Company from "./components/pages/Company.js";
 import Contact from "./components/pages/Contact.js";
 import NewProject from "./components/pages/NewProject.js";
 
-import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Container from "./components/layout/Container.js";
 import Navbar from "./components/layout/Navbar.js";
 import Footer from "./components/layout/Footer.js";

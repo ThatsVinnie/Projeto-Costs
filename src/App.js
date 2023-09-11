@@ -2,6 +2,7 @@ import Home from "./components/pages/Home.js";
 import Company from "./components/pages/Company.js";
 import Contact from "./components/pages/Contact.js";
 import NewProject from "./components/pages/NewProject.js";
+import Project from "./components/pages/Project.js";
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Container from "./components/layout/Container.js";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/company" element={<Company/>}></Route>
             <Route path="/contact" element={<Contact/>}></Route>
             <Route path="/newproject" element={<NewProject/>}></Route>
+            <Route path="/project/:id" element={<Project/>}></Route>
           </Routes>
         </Container>
         <Footer/>
